@@ -1,29 +1,29 @@
 .container {
-    position:relative
+   
     width: auto;
-    height: 2300px;
-    padding: 5px;
+    height: 123vw;
+    padding: 1vw;
     border: 1px solid red;
     background: #fff3cd;
 }
 
 .title {
-    font-size: 50px;
-    font-family: 'Alegreya SC';
-    margin-top: -50px;
+    font-size: 3vw;
+    font-family: 'Bangers';
+    margin-top: -4.5vw;
     
 }
 
 .top {
     position: relative;
-    height: 250px;
+    height: 15vw;
     width: auto;
     border: 2px solid black;
     background: #f4ea8e;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 3.5vw;
     box-shadow: 5px 5px 5px #dbdbdb;
 }
 
@@ -31,10 +31,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
-    height: 300px;
+    width: 18vw;
+    height: 21vw;
     border: 2px solid black;
-    margin-top: -25px;
+    margin-top: -2.6vw;
 }
 
 .name {
@@ -42,9 +42,10 @@
     height: auto;
     width: auto;
     border: 1px solid black;
-    font-size: 50px;
-    padding: 10px;
+    font-size: 2.5vw;
+    padding: 0.8vw;
     background: #d63447;
+    font-family: 'Acme'; 
 }
 
 .work {
@@ -55,7 +56,8 @@
     height: auto;
     width: auto;
     background: #d63447;
-    font-size: 50px;
+    font-size: 2.5vw;
+    font-family: 'Acme';     
 }
 
 #leftbox {
@@ -65,14 +67,13 @@
 .content {
 
     background: grey;
-
-    margin-left: 100px;
+    margin-left: 11vw;
     border: 0px solid black;
-    width: 500px;
-    height: 1700px;
-    margin-top: 30px;
+    width: 20vw;
+    height: 35vw;
+    margin-top: 1.2vw;
     display: grid;
-    grid-template-rows: 340px 340px 340px 340px 340px;
+    grid-template-rows: repeat(5,18vw);
 }
 
 .a {
@@ -83,10 +84,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: auto;
-    width: 350px;
-    height: 300px;
+    width: 15vw;
+    height: 15vw;
     border: 2px solid black;
     opacity: 1;
     box-shadow: 10px 10px 10px #d63447;
@@ -99,29 +100,30 @@
 .content2 {
     position: relative;
     background: #edf4f2;
-    margin-right: 50px;
-    margin-left: 100px;
+    margin-right: 2vw;
+    margin-left: 3.5vw;
     border: 0px solid black;
-    width: 690px;
-    height: 1600px;
-    margin-top: 50px;
+    width: 52vw;
+    height: 80vw;
+    margin-top: 2vw;
     background:#fff3cd;
+    
 }
 
 .line1 {
     margin-left: 10px;
     margin-right: 10px;
-    background: #f4722b;
-    font-size: 25px;
-    font-family: 'Taviraj';  
+    background: #f57b51;
+    font-size: 1.9vw;
+    font-family: 'Acme';  
 }
 
 .line2 {
     margin-left: 10px;
     margin-right: 10px;
-    background: #f4722b;
-    font-size: 25px;
-    font-family: 'Taviraj'; 
+    background:#f57b51;
+    font-size: 1.9vw;
+    font-family: 'Acme'; 
 }
 
 
